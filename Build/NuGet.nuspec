@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>TextAdventure.Engine</id>
+		<version>$version$</version>
+		<title>Text Adventure Engine</title>
+		<authors>Nathan Alden Sr.</authors>
+		<description>Text Adventure Engine provides the game engine that powers Text Adventure.</description>
+		<releaseNotes></releaseNotes>
+		<projectUrl>https://github.com/NathanAlden/TextAdventureEngine</projectUrl>
+		<iconUrl>https://docs.google.com/uc?export=download&amp;id=0B8a4O6RATfaXV1lnb0lldjF6STQ</iconUrl>
+		<dependencies>
+			<dependency id="JuniorCommon" version="1.0.6"/>
+		</dependencies>
+		<references>
+			<reference file="TextAdventure.Engine.dll"/>
+		</references>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System" targetFramework="net40"/>
+			<frameworkAssembly assemblyName="System.Xml" targetFramework="net40"/>
+			<frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net40"/>
+		</frameworkAssemblies>
+		<tags>Text Adventure TextAdventure Game Engine</tags>
+	</metadata>
+	<files>
+		<file src="NuGet Staging\LICENSE"/>
+		<file src="NuGet Staging\README"/>
+		<file src="NuGet Staging\bin\*.*" target="lib\net40"/>
+	</files>
+</package>
